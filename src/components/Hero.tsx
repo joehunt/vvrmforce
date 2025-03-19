@@ -23,7 +23,7 @@ const Hero = () => {
             <Button size="lg" className="bg-vvrm-teal hover:bg-vvrm-teal/90 text-white">
               Get Started
             </Button>
-            <Button variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10">
+            <Button variant="outline" size="lg" className="bg-white/20 border-white text-white hover:bg-white/30">
               Learn More
             </Button>
           </div>

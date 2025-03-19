@@ -22,7 +22,8 @@ const Index = () => {
         "Benchmarking against industry best practices",
         "AI-powered opportunity analysis and prioritization"
       ],
-      imagePosition: "right"
+      imagePosition: "right",
+      imageUrl: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1200&q=80"
     },
     {
       id: "value",
@@ -36,7 +37,8 @@ const Index = () => {
         "Operational efficiency and cost reduction analysis",
         "Competitive advantage assessment"
       ],
-      imagePosition: "left"
+      imagePosition: "left",
+      imageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
     },
     {
       id: "roadmap",
@@ -50,7 +52,8 @@ const Index = () => {
         "Technology integration requirements",
         "Change management and organizational readiness"
       ],
-      imagePosition: "right"
+      imagePosition: "right",
+      imageUrl: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=80"
     },
     {
       id: "measure",
@@ -64,7 +67,8 @@ const Index = () => {
         "Continuous improvement cycles and optimization",
         "Long-term success measurement and reporting"
       ],
-      imagePosition: "left"
+      imagePosition: "left",
+      imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
     }
   ];
 
@@ -83,6 +87,7 @@ const Index = () => {
           icon={pillar.icon}
           bullets={pillar.bullets}
           imagePosition={pillar.imagePosition as 'left' | 'right'}
+          imageUrl={pillar.imageUrl}
         />
       ))}
       

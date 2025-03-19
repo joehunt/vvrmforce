@@ -17,9 +17,11 @@ const CTA = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-vvrm-teal hover:bg-vvrm-teal/90 text-white">
-              Get Started
-            </Button>
+            <a href="https://task-luminance.lovable.app/" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-vvrm-teal hover:bg-vvrm-teal/90 text-white">
+                Get Started
+              </Button>
+            </a>
             <Button variant="outline" size="lg" className="bg-white/20 border-white text-white hover:bg-white/30">
               Learn More
             </Button>

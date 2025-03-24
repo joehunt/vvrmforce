@@ -53,7 +53,7 @@ const Index = () => {
         "Change management and organizational readiness"
       ],
       imagePosition: "right",
-      imageUrl: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=80"
+      imageUrl: "/lovable-uploads/51682b7a-0c38-4500-8158-a9eb470574fd.png"
     },
     {
       id: "measure",

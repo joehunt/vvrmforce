@@ -9,7 +9,7 @@ interface PillarProps {
   icon: ReactNode;
   bullets: string[];
   imagePosition: 'left' | 'right';
-  imageUrl: string; // New prop for the image URL
+  imageUrl: string;
 }
 
 const PillarSection = ({ 
@@ -58,12 +58,14 @@ const PillarSection = ({
           </div>
           
           <div className="w-full md:w-1/2">
-            <div className={`rounded-2xl overflow-hidden border ${borderColorClass} aspect-video shadow-lg`}>
-              <img 
-                src={imageUrl} 
-                alt={`${title} illustration`} 
-                className="w-full h-full object-cover transition-transform hover:scale-105 duration-500" 
-              />
+            <div className={`rounded-2xl overflow-hidden border ${borderColorClass} shadow-lg bg-gray-50`}>
+              <div className="p-4">
+                <img 
+                  src={imageUrl} 
+                  alt={`${title} illustration`} 
+                  className="w-full h-full object-contain rounded transition-transform hover:scale-105 duration-500" 
+                />
+              </div>
             </div>
           </div>
         </div>

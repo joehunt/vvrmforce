@@ -1,4 +1,3 @@
-
 import { Search, DollarSign, MapPin, BarChart } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -23,7 +22,7 @@ const Index = () => {
         "AI-powered opportunity analysis and prioritization"
       ],
       imagePosition: "right",
-      imageUrl: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1200&q=80"
+      imageUrl: "/lovable-uploads/a8df53c2-6e2e-41d1-8e88-febf6ade853b.png"
     },
     {
       id: "value",

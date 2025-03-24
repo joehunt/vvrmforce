@@ -1,3 +1,4 @@
+
 import { Search, DollarSign, MapPin, BarChart } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -37,7 +38,7 @@ const Index = () => {
         "Competitive advantage assessment"
       ],
       imagePosition: "left",
-      imageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+      imageUrl: "/lovable-uploads/6053bb5e-d8b8-4603-85d6-262634e366a2.png"
     },
     {
       id: "roadmap",

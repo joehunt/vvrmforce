@@ -62,7 +62,7 @@ export default {
           vision: '#4A6FFF',
           value: '#00BFA5',
           roadmap: '#FF7D50',
-          measure: '#9C27B0',
+          measure: '#1E40AF',
         },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

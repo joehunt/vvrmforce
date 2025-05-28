@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,7 @@ export default {
           vision: '#4A6FFF',
           value: '#00BFA5',
           roadmap: '#FF7D50',
-          measure: '#B45309',
+          measure: '#dbe643',
         },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
